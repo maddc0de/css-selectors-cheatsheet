@@ -40,3 +40,7 @@ tbody td:hover {
 span {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+footer {
+    text-align: center;
+}
