@@ -3,6 +3,7 @@
     <head>
         <title>CSS Selectors Cheat Sheet</title>
         <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -18,55 +19,54 @@
                         <th>What is it used for?</th>
                     </tr>
                 </thead>
-                
                 <tbody>
                     <tr>
                         <td>ID Selector</td>
                         <td>&#35;idName</td>
-                        <td>From: &lt;div id&#61;&#34;address&#34;&#62;</td> 
-                        <td>To: &#35;address &#123;&#125;</td>
+                        <td>&lt;div id&#61;&#34;address&#34;&#62;</td> 
+                        <td>&#35;address &#123;&#125;</td>
                         <td>To select and format a single element that have the given unique ID in a document.</td>
                     </tr>
                     <tr>
                         <td>Class Selector</td>
                         <td>&#46;className</td>
-                        <td>From: &lt;div class&#61;&#34;address&#34;&#62;</td>
-                        <td>To: &#46;address &#123;&#125;</td>
+                        <td>&lt;div class&#61;&#34;address&#34;&#62;</td>
+                        <td>&#46;address &#123;&#125;</td>
                         <td>To select and format all elements that have the given value of the class attribute.</td>
                     </tr>
                     <tr>
                         <td>Element Selector</td>
                         <td>elementType</td>
-                        <td>From: &lt;div&#62;</td>
-                        <td>To: div &#123;&#125;</td>
+                        <td>&lt;div&#62;</td>
+                        <td>div &#123;&#125;</td>
                         <td>To select and format HTML elements based on the element name</td>
                     </tr>
                     <tr>
                         <td>Attribute Selector</td>
                         <td>type&#91;attribute&#93;</td>
-                        <td>From: &lt;div style&#61;&#34;color&#58;yellow&#34;&#62;</td>
-                        <td>To: div&#91;style&#93; &#123;&#125;</td>
+                        <td>&lt;div style&#61;&#34;color&#58;yellow&#34;&#62;</td>
+                        <td>div&#91;style&#93; &#123;&#125;</td>
                         <td>To select and format an element&#40;s&#41; with a specific attribute or attribute value.</td>
                     </tr>
                     <tr>
                         <td>Descendant Selector</td>
                         <td>A&#32;B</td>
-                        <td>From: &lt;div&#62;  &lt;p&#62; &lt;&#47;p&#62;  &lt;&#47;div&#62;</td>
-                        <td>To: div p  &#123;&#125;</td>
+                        <td>&lt;div&#62;  &lt;p&#62; &lt;&#47;p&#62;  &lt;&#47;div&#62;</td>
+                        <td>div p  &#123;&#125;</td>
                         <td>To select and format an element that is a descendant of another element</td>
                     </tr>
                     <tr>
                         <td>Child Selector</td>
                         <td>A &#62; B</td>
-                        <td>From: &lt;div&#62;  &lt;p&#62; &lt;&#47;p&#62;  &lt;&#47;div&#62;</td>
-                        <td>To: div &#62; p &#123;&#125;</td>
+                        <td>&lt;div&#62;  &lt;p&#62; &lt;&#47;p&#62;  &lt;&#47;div&#62;</td>
+                        <td>div &#62; p &#123;&#125;</td>
                         <td>To select and format a direct child element(s)</td>
                     </tr>
                     <tr>
                         <td>Multiple Selectors</td>
                         <td>A&#44; B </td>
-                        <td>From: &lt;h1&#62;&lt;&#47;h1&#62; &lt;p&#62;&lt;&#47;p&#62;</td>
-                        <td>To: h1&#44; p  &#123;&#125;</td>
+                        <td>&lt;h1&#62;&lt;&#47;h1&#62; &lt;p&#62;&lt;&#47;p&#62;</td>
+                        <td>h1&#44; p  &#123;&#125;</td>
                         <td>To select and format all specified elements in a single CSS rule</td>
                     </tr>
                     <tr>
